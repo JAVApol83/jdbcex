@@ -4,15 +4,13 @@ import java.sql.*;
 public class UpdateProductsInTransactionProgram {
 
     /*
-    CREATE TABLE `productDetails` (
-  `id` bigint NOT NULL AUTO_INCREMENT,
-  `manufacturer` varchar(255) NOT NULL,
-  `count` int NOT NULL DEFAULT '0',
-  `productId` bigint NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `productId` (`productId`),
-  CONSTRAINT `productdetails_ibfk_1` FOREIGN KEY (`productId`) REFERENCES `products` (`id`)
-)
+    CREATE TABLE productDetails (
+	    id BIGINT NOT NULL AUTO_INCREMENT,
+        manufacturer VARCHAR(255) NOT NULL,
+        count INT NOT NULL DEFAULT 0,
+        productID BIGINT NOT NULL,
+        PRIMARY KEY(id),
+        FOREIGN KEY (productID) REFERENCES products (id));
      */
 
     public static void main(String[] args) {
