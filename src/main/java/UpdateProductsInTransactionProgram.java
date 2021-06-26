@@ -1,4 +1,6 @@
-import javax.swing.plaf.nimbus.State;
+import utils.AutoCloseableExtension;
+import utils.SQLExceptionExtension;
+
 import java.sql.*;
 
 public class UpdateProductsInTransactionProgram {

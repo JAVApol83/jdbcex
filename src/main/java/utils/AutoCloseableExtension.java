@@ -1,3 +1,5 @@
+package utils;
+
 public class AutoCloseableExtension {
 
     public static void close(AutoCloseable autoCloseable) {
